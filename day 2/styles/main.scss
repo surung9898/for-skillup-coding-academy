@@ -1,0 +1,95 @@
+.top {
+  border-bottom: 1px solid;
+  background-color: black;
+  display: flex;
+  height: 60px;
+  margin: -8px;
+}
+
+.top-menu {
+  padding: 15px;
+  color: white;
+
+  &:hover {
+    background-color: #666666;
+    border-radius: 25px;
+  }
+}
+
+.top-icon {
+  color: white;
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+  font-weight: 800;
+}
+
+.top-search {
+  color: white;
+  padding: 15px;
+
+  &:hover {
+    background-color: #666666;
+    border-radius: 25px;
+  }
+}
+
+.editorSelectTitle {
+  position: relative;
+  margin: 10px;
+}
+
+.editorInfo-mini {
+  font-size: 15px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+.editorInfo {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.date {
+  position: relative;
+  margin-top: 30px;
+  top: 25px;
+  text-align: right;
+}
+
+.editorSelectContents {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 20px;
+  overflow-x: auto;
+  height: 290px;
+  background-color:green ;
+}
+
+.erionEditorGuide {
+  border-top: 1px solid orange;
+  border-radius: 30px;
+  height: 280px;
+  width: 270px;
+  overflow: hidden;
+}
+
+.guidePicture {
+  height: 140px;
+  background-color: orange;
+
+}
+
+.guideTag {
+
+}
+
+.editorGuideAddress {
+  background-color: white;
+  height:140px;
+
+}
+
+.editorMaster {
+
+}
